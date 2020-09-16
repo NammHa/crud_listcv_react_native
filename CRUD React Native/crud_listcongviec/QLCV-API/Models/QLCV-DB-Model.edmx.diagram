@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="04c81e83991d49659730812a75c40d09" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="TaskManageModel.TBL_BAO_CAO_CV" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_DANH_MUC" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_DS_TAI_LIEU" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_MENU" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_MENU_LOAI" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_MENU_QUYEN" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_NGUOI_DUNG" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_NGUOI_DUNG_PHONG_BAN" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_NGUOI_DUNG_QUYEN" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_PHONG_BAN" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_QUYEN" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_QUYEN_RULE" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_RULE" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_THEO_DOI_CV" Width="2.25" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_TIMESHEET" Width="1.5" PointX="5.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="TaskManageModel.FK_BAO_CAO_CV_TIMESHEET" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManageModel.FK_Menu_Quyen_Menu" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManageModel.FK_Menus_Menu_Loai" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManageModel.FK_Menu_Quyen_Quyen" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManageModel.FK_NguoiDung_Quyen_NguoiDung" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_HE_THONG" Width="1.5" PointX="7.875" PointY="9.125" />
+        <EntityTypeShape EntityType="TaskManageModel.TBL_HOP_DONG" Width="1.5" PointX="5.625" PointY="10.875" />
+        <AssociationConnector Association="TaskManageModel.FK_TBL_HE_THONG_HOP_DONG" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

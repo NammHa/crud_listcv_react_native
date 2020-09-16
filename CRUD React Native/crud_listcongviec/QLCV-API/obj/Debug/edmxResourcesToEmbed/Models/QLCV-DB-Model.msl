@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TaskManageModelStoreContainer" CdmEntityContainer="QLCVEntities">
+    <EntitySetMapping Name="TBL_BAO_CAO_CV">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_BAO_CAO_CV">
+        <MappingFragment StoreEntitySet="TBL_BAO_CAO_CV">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LOAI_CONG_VIEC" ColumnName="ID_LOAI_CONG_VIEC" />
+          <ScalarProperty Name="TEN_CONG_VIEC" ColumnName="TEN_CONG_VIEC" />
+          <ScalarProperty Name="MO_TA" ColumnName="MO_TA" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+          <ScalarProperty Name="TONG_THOI_GIAN" ColumnName="TONG_THOI_GIAN" />
+          <ScalarProperty Name="ID_TIMESHEET" ColumnName="ID_TIMESHEET" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_DANH_MUC">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_DANH_MUC">
+        <MappingFragment StoreEntitySet="TBL_DANH_MUC">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MA_DANH_MUC" ColumnName="MA_DANH_MUC" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="MO_TA" ColumnName="MO_TA" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_DS_TAI_LIEU">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_DS_TAI_LIEU">
+        <MappingFragment StoreEntitySet="TBL_DS_TAI_LIEU">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_HE_THONG" ColumnName="ID_HE_THONG" />
+          <ScalarProperty Name="DAC_TA_YCKH" ColumnName="DAC_TA_YCKH" />
+          <ScalarProperty Name="GPKT" ColumnName="GPKT" />
+          <ScalarProperty Name="TL2589" ColumnName="TL2589" />
+          <ScalarProperty Name="PTTK" ColumnName="PTTK" />
+          <ScalarProperty Name="HDSD" ColumnName="HDSD" />
+          <ScalarProperty Name="HDCDHT" ColumnName="HDCDHT" />
+          <ScalarProperty Name="UAT" ColumnName="UAT" />
+          <ScalarProperty Name="CODING" ColumnName="CODING" />
+          <ScalarProperty Name="BBNTKT" ColumnName="BBNTKT" />
+          <ScalarProperty Name="BBNTTT" ColumnName="BBNTTT" />
+          <ScalarProperty Name="BBBG_DBHD" ColumnName="BBBG_DBHD" />
+          <ScalarProperty Name="HDBT" ColumnName="HDBT" />
+          <ScalarProperty Name="HDQLTD" ColumnName="HDQLTD" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_MENU">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_MENU">
+        <MappingFragment StoreEntitySet="TBL_MENU">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LOAI_MENU" ColumnName="ID_LOAI_MENU" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="TEN_URL" ColumnName="TEN_URL" />
+          <ScalarProperty Name="LINK" ColumnName="LINK" />
+          <ScalarProperty Name="isEnabled" ColumnName="isEnabled" />
+          <ScalarProperty Name="ID_CHA" ColumnName="ID_CHA" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="ID_NGON_NGU" ColumnName="ID_NGON_NGU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_MENU_LOAI">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_MENU_LOAI">
+        <MappingFragment StoreEntitySet="TBL_MENU_LOAI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TIEU_DE" ColumnName="TIEU_DE" />
+          <ScalarProperty Name="MO_TA" ColumnName="MO_TA" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_MENU_QUYEN">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_MENU_QUYEN">
+        <MappingFragment StoreEntitySet="TBL_MENU_QUYEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_QUYEN" ColumnName="ID_QUYEN" />
+          <ScalarProperty Name="ID_MENU" ColumnName="ID_MENU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_NGUOI_DUNG">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_NGUOI_DUNG">
+        <MappingFragment StoreEntitySet="TBL_NGUOI_DUNG">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+          <ScalarProperty Name="isEnabled" ColumnName="isEnabled" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_NGUOI_DUNG_PHONG_BAN">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_NGUOI_DUNG_PHONG_BAN">
+        <MappingFragment StoreEntitySet="TBL_NGUOI_DUNG_PHONG_BAN">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="isLeader" ColumnName="isLeader" />
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_NGUOI_DUNG_QUYEN">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_NGUOI_DUNG_QUYEN">
+        <MappingFragment StoreEntitySet="TBL_NGUOI_DUNG_QUYEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_NGUOI_DUNG" ColumnName="ID_NGUOI_DUNG" />
+          <ScalarProperty Name="ID_QUYEN" ColumnName="ID_QUYEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_PHONG_BAN">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_PHONG_BAN">
+        <MappingFragment StoreEntitySet="TBL_PHONG_BAN">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="isDefault" ColumnName="isDefault" />
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="isVisible" ColumnName="isVisible" />
+          <ScalarProperty Name="IdParent" ColumnName="IdParent" />
+          <ScalarProperty Name="DepartmentCode" ColumnName="DepartmentCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_QUYEN">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_QUYEN">
+        <MappingFragment StoreEntitySet="TBL_QUYEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="ID_PARENT" ColumnName="ID_PARENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_QUYEN_RULE">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_QUYEN_RULE">
+        <MappingFragment StoreEntitySet="TBL_QUYEN_RULE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_QUYEN" ColumnName="ID_QUYEN" />
+          <ScalarProperty Name="ID_RULE" ColumnName="ID_RULE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_RULE">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_RULE">
+        <MappingFragment StoreEntitySet="TBL_RULE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="isEnabled" ColumnName="isEnabled" />
+          <ScalarProperty Name="ID_PARENT" ColumnName="ID_PARENT" />
+          <ScalarProperty Name="ORDER" ColumnName="ORDER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_THEO_DOI_CV">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_THEO_DOI_CV">
+        <MappingFragment StoreEntitySet="TBL_THEO_DOI_CV">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TEN_CONG_VIEC" ColumnName="TEN_CONG_VIEC" />
+          <ScalarProperty Name="ID_HE_THONG" ColumnName="ID_HE_THONG" />
+          <ScalarProperty Name="ID_HOP_DONG" ColumnName="ID_HOP_DONG" />
+          <ScalarProperty Name="ID_NGUOI_CHU_TRI" ColumnName="ID_NGUOI_CHU_TRI" />
+          <ScalarProperty Name="ID_NGUOI_PHOI_HOP" ColumnName="ID_NGUOI_PHOI_HOP" />
+          <ScalarProperty Name="NGAY_BAT_DAU" ColumnName="NGAY_BAT_DAU" />
+          <ScalarProperty Name="NGAY_KET_THUC" ColumnName="NGAY_KET_THUC" />
+          <ScalarProperty Name="ID_KET_QUA_CV" ColumnName="ID_KET_QUA_CV" />
+          <ScalarProperty Name="GHI_CHU" ColumnName="GHI_CHU" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+          <ScalarProperty Name="ID_MUC_DO_CV" ColumnName="ID_MUC_DO_CV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_TIMESHEET">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_TIMESHEET">
+        <MappingFragment StoreEntitySet="TBL_TIMESHEET">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KHO_KHAN_KIEN_NGHI" ColumnName="KHO_KHAN_KIEN_NGHI" />
+          <ScalarProperty Name="SANG_KIEN" ColumnName="SANG_KIEN" />
+          <ScalarProperty Name="TONG_THOI_GIAN" ColumnName="TONG_THOI_GIAN" />
+          <ScalarProperty Name="NGAY_BAO_CAO" ColumnName="NGAY_BAO_CAO" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_HE_THONG">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_HE_THONG">
+        <MappingFragment StoreEntitySet="TBL_HE_THONG">
+          <ScalarProperty Name="TT_DBHD" ColumnName="TT_DBHD" />
+          <ScalarProperty Name="ID_TIEN_DO" ColumnName="ID_TIEN_DO" />
+          <ScalarProperty Name="ID_PHAM_VI_DA" ColumnName="ID_PHAM_VI_DA" />
+          <ScalarProperty Name="ID_LOAI_TRIEN_KHAI_DA" ColumnName="ID_LOAI_TRIEN_KHAI_DA" />
+          <ScalarProperty Name="ID_NGUOI_PHOI_HOP" ColumnName="ID_NGUOI_PHOI_HOP" />
+          <ScalarProperty Name="ID_NGUOI_THUC_HIEN" ColumnName="ID_NGUOI_THUC_HIEN" />
+          <ScalarProperty Name="ID_PM" ColumnName="ID_PM" />
+          <ScalarProperty Name="ID_PRODUCT_OWNER" ColumnName="ID_PRODUCT_OWNER" />
+          <ScalarProperty Name="ID_TRANG_THAI_DA" ColumnName="ID_TRANG_THAI_DA" />
+          <ScalarProperty Name="MAN_DAY" ColumnName="MAN_DAY" />
+          <ScalarProperty Name="QUY" ColumnName="QUY" />
+          <ScalarProperty Name="NGAY_NGHIEM_THU_TT" ColumnName="NGAY_NGHIEM_THU_TT" />
+          <ScalarProperty Name="NGAY_BAT_DAU_LAM" ColumnName="NGAY_BAT_DAU_LAM" />
+          <ScalarProperty Name="DO_UU_TIEN" ColumnName="DO_UU_TIEN" />
+          <ScalarProperty Name="ID_KH_NSD" ColumnName="ID_KH_NSD" />
+          <ScalarProperty Name="ID_KH_KY_HD" ColumnName="ID_KH_KY_HD" />
+          <ScalarProperty Name="NGAY_KH_YC_HOAN_THANH" ColumnName="NGAY_KH_YC_HOAN_THANH" />
+          <ScalarProperty Name="NGAY_KH_GUI_YC" ColumnName="NGAY_KH_GUI_YC" />
+          <ScalarProperty Name="MO_TA" ColumnName="MO_TA" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="ID_HOP_DONG" ColumnName="ID_HOP_DONG" />
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="MA_HE_THONG" ColumnName="MA_HE_THONG" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_HOP_DONG">
+      <EntityTypeMapping TypeName="TaskManageModel.TBL_HOP_DONG">
+        <MappingFragment StoreEntitySet="TBL_HOP_DONG">
+          <ScalarProperty Name="NGAY_SUA" ColumnName="NGAY_SUA" />
+          <ScalarProperty Name="ID_NGUOI_SUA" ColumnName="ID_NGUOI_SUA" />
+          <ScalarProperty Name="NGAY_TAO" ColumnName="NGAY_TAO" />
+          <ScalarProperty Name="ID_NGUOI_TAO" ColumnName="ID_NGUOI_TAO" />
+          <ScalarProperty Name="TT_XOA" ColumnName="TT_XOA" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="MO_TA" ColumnName="MO_TA" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="SO_HOP_DONG" ColumnName="SO_HOP_DONG" />
+          <ScalarProperty Name="MA_HOP_DONG" ColumnName="MA_HOP_DONG" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
